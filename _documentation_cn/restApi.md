@@ -7,7 +7,7 @@ parameters:
         content:
 content_markdown: |-
 
-    **生产环境: https://sapi.socketbyexchange.net**
+    **生产环境: https://sapi.socketexchange.net**
     {: .info}
 
 

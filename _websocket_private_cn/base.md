@@ -12,7 +12,7 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: '**wss://stream.socketbyexchange.net/private**'
+content_markdown: '**wss://stream.socketexchange.net/private**'
 left_code_blocks:
     -
         code_block:

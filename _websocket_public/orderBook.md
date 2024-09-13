@@ -17,13 +17,13 @@ content_markdown: |-
         **How to manage a local order book correctly**
         
 
-        1.Open a stream to wss://stream.socketbyexchange.net/public , depth_update@btc_usdt
+        1.Open a stream to wss://stream.socketexchange.net/public , depth_update@btc_usdt
 
 
         2.Buffer the events you receive from the stream.
 
 
-        3.Get a depth snapshot from https://sapi.socketbyexchange.net/v4/public/depth?symbol=btc_usdt&limit=500
+        3.Get a depth snapshot from https://sapi.socketexchange.net/v4/public/depth?symbol=btc_usdt&limit=500
 
 
         4.Drop any event where i is <= lastUpdateId in the snapshot.
